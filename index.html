@@ -3,6 +3,8 @@
 <head>
 	<title>Awesome IT</title>
 	
+	<link rel="shortcut icon" href="img/favicon.ico">
+	
 	<!-- REQUIRED META TAGS -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,6 +16,9 @@
 	<!-- BOOTSTRAP CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- ADBLOCK DETECTOR -->
+	<script type='text/javascript' src='http://sqrtlewy.cba.pl/advertisement.js'></script>
 </head>
 
 <body>
@@ -21,7 +26,7 @@
 <header>
 	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
 		<a class="navbar-brand" href="index.html">
-		<img src="img/logo.png" width="50" height="50" class="d-inline-block align-top">Awesome IT
+		<img src="img/logo.png" width="170" height="60" class="d-inline-block align-top">
 		</a>
 		
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,18 +38,28 @@
 				<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">About Author</a>
+				<a class="nav-link" href="about.html">About Author</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Contact</a>
+				<a class="nav-link" href="contact.html">Contact</a>
 			  </li>
 			</ul>
 		  </div>
 	</nav>
 </header>
 
+<script type="text/javascript">
+		if (document.getElementById("detect") != undefined)
+			  {
+			    document.write('<div class="alert alert-success" role="alert"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><strong>Great!</strong> You have turned off AdBlock! ( ͡° ͜ʖ ͡°)</div>');
+			  }
+			  else
+			  {
+			    document.write('<div class="alert alert-danger alert-dismissible hidden-sm-down" role="alert"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><strong>Oh, not good!</strong> You have enabled AdBlock ( ͡° ʖ̯ ͡°)</div>');
+			  }
+</script>
 
-<main class="bg-light">
+<main class="bg-white">
 
 	<div class="container">
 	<header>
@@ -106,7 +121,7 @@
 
 <footer class="page-footer bg-primary">
 
-  <div class="footer text-center py-3 ">© 2019 Copyright: <a href="index.html" class="text-dark"> SqrtLewy</a>
+  <div class="footer text-center py-3 ">© 2020 Copyright: <a href="index.html" class="text-dark"> SqrtLewy</a>
   </div>
 
 </footer>
@@ -115,5 +130,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
